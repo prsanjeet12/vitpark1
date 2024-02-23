@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutUsImage from './images/product3.jpg'; // Renamed the import to follow JavaScript naming conventions
+import aboutUsImage from './images/about_us4 (1).jpg'; // Renamed the import to follow JavaScript naming conventions
 
 const AboutUs = () => {
   return (
@@ -7,7 +7,7 @@ const AboutUs = () => {
      mx-auto px-4 bg-white " id='about'>
       {/* Illustration on the left */}
       <div className="lg:w-1/2 lg:pr-8 mt-12 lg:mt-0">
-        <img src={aboutUsImage} alt="About Us Illustration" className="w-full h-[600px] object-cover" />
+        <img src={aboutUsImage} alt="About Us Illustration" className="w-full h-[600px] object-fit" />
       </div>
       {/* Text content on the right */}
       <div className="lg:w-1/2 lg:mb-[110px] lg:pl-8 lg:flex lg:flex-col lg:justify-center">
