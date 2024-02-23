@@ -43,14 +43,14 @@ const Footer = () => {
                   <a href="https://biowms.com/">
                     <h4 className="text-[17px] font-bold mb-2 text-gray-900">Our Partner</h4>
                     <img src={patner} alt="Partner Image" className="w-20 h-20 mb-2" />
-                    <h1 className='text-gray-900'>Chola Chariots</h1>
+                    <h1 className='text-gray-900'>biowms</h1>
                   </a>
                 </div>
                 {/* Our Product */}
                 <div className="flex items-center lg:mb-6 flex-col">
                   <h4 className="text-[17px] font-bold mb-2 text-gray-900">Our Product</h4>
                   <img src={product} alt="Product Image" className="w-30 h-20 mb-2" />
-                  <h1 className='text-gray-900'>Chola Chariotsf</h1>
+                  <h1 className='text-gray-900'>Chola Chariots</h1>
                 </div>
               </div>
             </div>
